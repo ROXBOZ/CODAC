@@ -1,7 +1,7 @@
 "use client";
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import Project from "./components/Project";
+import Header from "../../components/Header";
+import Sidebar from "../../components/Sidebar";
+import Project from "../../components/Project";
 import { useGetProjectsQuery } from "codac-administration";
 import { useState } from "react";
 

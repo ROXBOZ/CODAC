@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import { useGetSpikeQuery } from "codac-administration";
-import Header from "../projects/components/Header";
+import Header from "../../components/Header";
 
 export default function Projects() {
   const PAGE_TITLE = "Spike";
